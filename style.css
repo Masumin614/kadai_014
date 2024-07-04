@@ -9,7 +9,7 @@ h1 {
     font-family: "Josefin Sans",sans-serif;
     color:#000;
     font-size: 2rem;
-    letter-spacing: 2rem;
+    letter-spacing: 1.2rem;
     text-shadow: 3px 7px 5px rgba(192, 192, 192, 0.601);
     border-bottom: 3px solid rgb(115, 115, 114);
 }
@@ -25,14 +25,7 @@ h1 {
 }
 
 /* 自己紹介詳細 */
-.name h2 { color:rgb(255, 192, 203); font-weight: bold; }
-.blood h2 { color:rgb(255, 192, 203); font-weight: bold; }
-.food h2 { color:rgb(255, 192, 203); font-weight: bold; }
-.birth h2{ color:skyblue; font-weight: bold;}
-.hobby h2{ color:skyblue; font-weight: bold;}
-.reason h2{ color:skyblue; font-weight: bold;}
+h2:nth-of-type(odd) { color:rgb(255, 192, 203); font-weight: bold; }
+h2:nth-of-type(even){ color:skyblue; font-weight: bold;}
 
-.name p{font-weight: bold;}
-.birth p{font-weight: bold;}
-.blood p{font-weight: bold;}
-
+.name ,.birth{font-weight: bold;}
