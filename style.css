@@ -3,33 +3,36 @@
     font-size: 20px;
     text-align: center;
 }
-.h1_title{
-    font-family: "Josefin Sans";
+
+/* Myprofile部分 */
+h1 {
+    font-family: "Josefin Sans",sans-serif;
     color:#000;
-    font-size: 40px;
-    letter-spacing: 24px;
+    font-size: 2rem;
+    letter-spacing: 2rem;
     text-shadow: 3px 7px 5px rgba(192, 192, 192, 0.601);
     border-bottom: 3px solid rgb(115, 115, 114);
 }
 .title_m{
-    font-family: "Josefin Sans";
     color:skyblue;
-    font-size: 40px;
-    letter-spacing: 24px;
-}
-.styles{
-    font-weight: bold;
-}
-.birth_h2 , .hobby_h2, .reason_h2{
-    color:skyblue;
-}
-.title_p{
-    font-family: "Josefin Sans";
-    color:rgb(255, 192, 203);
-    font-size: 40px;
-    letter-spacing: 24px;
+    font-size: 2rem;
+    
 }
 
-.name_h2, .blood_h2, .food_h2{
+.title_p{
     color:rgb(255, 192, 203);
+    font-size: 2rem;
 }
+
+/* 自己紹介詳細 */
+.name h2 { color:rgb(255, 192, 203); font-weight: bold; }
+.blood h2 { color:rgb(255, 192, 203); font-weight: bold; }
+.food h2 { color:rgb(255, 192, 203); font-weight: bold; }
+.birth h2{ color:skyblue; font-weight: bold;}
+.hobby h2{ color:skyblue; font-weight: bold;}
+.reason h2{ color:skyblue; font-weight: bold;}
+
+.name p{font-weight: bold;}
+.birth p{font-weight: bold;}
+.blood p{font-weight: bold;}
+
